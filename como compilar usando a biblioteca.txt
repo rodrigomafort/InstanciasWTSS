@@ -1,0 +1,10 @@
+Supondo que a biblioteca fique um diretório acima do arquivo cpp.
+Por exemplo:
+?/TSS/BibGrafos/
+?/TSS/InstanciasWTSS/<arquivo.cpp>
+
+O comando para compilar (no linux) é:
+g++ leitura.cpp -I ../BibGrafos -L ../BibGrafos -lBibGrafos -o leitura
+
+Para compilar a biblioteca no Linux, basta usar o makefile (make)
+
